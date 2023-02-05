@@ -5,9 +5,9 @@
 ## 使用说明
 
 ```text
-https://tlyboy.dev/:username?
+https://hyarriver.netlify.app/:username?
 ```
 
 ## 使用许可
 
-[MIT](https://opensource.org/licenses/MIT) © Guany
+[MIT](https://opensource.org/licenses/MIT) © hyarriver

@@ -10,15 +10,19 @@
       <p v-if="user.bio">{{ user.bio }}</p>
       <p>
         GitHub:
-        <a :href="user.html_url" target="_blank" rel="noopener noreferrer">{{
+        <a :href="user.html_url" target="_blank" rel="noopener noreferrer">
+          {{
           user.login
-        }}</a>
+          }}
+        </a>
       </p>
       <p v-if="user.blog">
         Blog:
-        <a :href="user.blog" target="_blank" rel="noopener noreferrer">{{
+        <a :href="user.blog" target="_blank" rel="noopener noreferrer">
+          {{
           user.blog
-        }}</a>
+          }}
+        </a>
       </p>
     </main>
   </div>
@@ -55,11 +59,7 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(
-    45deg,
-    rgba(231, 76, 60, 0.5),
-    rgba(52, 152, 219, 0.5)
-  );
+  background: linear-gradient(45deg, #bfc, #fcb);
   color: #fff;
   overflow: hidden;
 }
