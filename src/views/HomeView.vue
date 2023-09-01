@@ -10,11 +10,15 @@
       <p v-if="user.bio">{{ user.bio }}</p>
       <p>
         GitHub:
-        <a :href="user.html_url" target="_blank" rel="noopener noreferrer">{{user.login}}</a>
+        <a :href="user.html_url" target="_blank" rel="noopener noreferrer">{{
+          user.login
+        }}</a>
       </p>
       <p v-if="user.blog">
         Blog:
-        <a :href="user.blog" target="_blank" rel="noopener noreferrer">{{user.blog}}</a>
+        <a :href="user.blog" target="_blank" rel="noopener noreferrer">{{
+          user.blog
+        }}</a>
       </p>
     </main>
   </div>
